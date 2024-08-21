@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-image: url('360_F_438485308_RoqvoeiVxKwaRPV9895CzDWwFhfRIEGa.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+main {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    flex-grow: 1;
+    color: white;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+@media (max-width: 600px) {
+    nav, footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+body{
+    background-image: url(black-and-white-vancouver-city-4k-vb-3440x1440.jpg);
+    background-position: center;
+    background-repeat: none;
+}
